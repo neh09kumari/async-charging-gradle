@@ -68,7 +68,10 @@ curl --location 'http://localhost:8080/start-session' \
 cd fake-callback
 ```
 
-2. Run the Python server : python3 fake_callback.py
+2. Run the Python server : 
+```bash
+python3 fake_callback.py
+```
 
 This server listens on `http://localhost:9000` and prints any callback it receives.
 
@@ -80,7 +83,7 @@ Received POST to /:
 
 ---
 
- How it Works
+** How it Works**
 
 1. `/start-session` receives your session request
 2. It enqueues it in an async channel
