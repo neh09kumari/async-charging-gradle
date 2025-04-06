@@ -1,4 +1,4 @@
-****Async Charging Challenge ****
+**Async Charging Challenge** 
 
 This project is a simulation of an asynchronous service communication flow for an electric vehicle charging station.
 
@@ -21,7 +21,7 @@ this version uses Gradle
 
 ---
 
-**** 2. Run the Kotlin Application****
+** 2. Run the Kotlin Application**
 
 In IntelliJ:
 
@@ -37,7 +37,7 @@ the server is started on port **8080**.
 ---
 ** How to Test the `/start-session` API**
 
-**** 1. Use curl:****
+ 1. Use curl:
 
 ```bash
 curl --location 'http://localhost:8080/start-session' \
@@ -83,7 +83,7 @@ Received POST to /:
 
 ---
 
-** How it Works**
+ **How it Works**
 
 1. `/start-session` receives your session request
 2. It enqueues it in an async channel
